@@ -62,6 +62,7 @@ public class MobileWalletOperationController {
 		operation.setTypeAction("A");
 		operation.setIdaccountOriDest(accountIdSender);
 		operation.setAmount(operation.getAmount()*-1);
+		operation.setId(null);
 		return operation;
 	}
 	
